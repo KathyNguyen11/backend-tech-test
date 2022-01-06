@@ -8,7 +8,7 @@ For running this program, please make sure that your machine has installed these
 ## How to run 
 - Git clone this repo into your machine: `git clone https://github.com/KathyNguyen11/backend-tech-test.git`
 - Go to the folder contains this code, ex: `cd Documents/backend-tech-test`
-Have 2 way to verify this program:
+Have 2 ways to verify this program:
 1. Run command line with json file input
 ```commandline
 ./run.sh timezone.json     
@@ -17,7 +17,7 @@ If you caused permission error, please use below command to grant permission for
 ```commandline
 chmod +x run.sh 
 ```
-2. Run script `verify-music.sh` to verify. Ex
+2. Run script `verify-music.sh` to verify.
 ```commandline
-../verifier/verify-music.sh run.sh
+./backend/music-schedule/verifier/verify-music.sh run.sh   
 ```
